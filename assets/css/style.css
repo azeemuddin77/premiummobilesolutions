@@ -357,7 +357,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   width: 100%;
   height: calc(100vh - 114px);
   background-size: cover;
-  background-position: top right;
+  /* background-position: top right; */
+  background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
 }
@@ -416,7 +417,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #hero .carousel-inner .carousel-item {
   transition-property: opacity;
-  background-position: center top;
+  /* background-position: center top; */
+  background-position: center;
 }
 
 #hero .carousel-inner .carousel-item,
